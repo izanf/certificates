@@ -1,0 +1,16 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "alembic>=1.14.1",
+    "fastapi[standard]>=0.115.8",
+    "psycopg[binary]>=3.2.4",
+    "pydantic>=2.10.6",
+    "pydantic-settings>=2.7.1",
+    "sqlalchemy>=2.0.38",
+    "sqlmodel>=0.0.22",
+    "tenacity>=9.0.0",
+]
